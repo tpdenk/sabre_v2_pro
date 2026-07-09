@@ -1,0 +1,15 @@
+[package]
+name = "sabre_v2_pro"
+version = "0.1.0"
+edition = "2024"
+description = "A CLI tool to read battery and charging status from the Corsair Sabre v2 Pro."
+license = "MIT"
+documentation = "https://docs.rs/sabre_v2_pro"
+repository = "https://github.com/tpdenk/sabre_v2_pro"
+readme = "README.md"
+keywords = ["corsair", "sabre", "mouse", "battery", "hid"]
+categories = ["command-line-utilities"]
+
+[dependencies]
+clap = { version = "4.6.1", features = ["derive"] }
+libc = "0.2.186"
